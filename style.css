@@ -7,6 +7,7 @@
 body {
 	background-color: #333;
 	color: #999;	
+	overflow-x: hidden;
 }
 .navbar {
 	visibility: hidden;
@@ -225,6 +226,7 @@ color: white;
 body {
 	background-color: #333;
 	color: #999;	
+	overflow-x: hidden;
 }
 .navbar {
 	visibility: hidden;
@@ -447,6 +449,7 @@ margin-bottom: 50px;
 body {
 	background-color: #333;
 	color: #999;	
+	overflow-x: hidden;
 }
 
 .container {
