@@ -1,3 +1,4 @@
+@media only screen and (min-width: 768px) {
 * {
 	margin: 0;
 	padding: 0;
@@ -7,7 +8,10 @@ body {
 	background-color: #333;
 	color: #999;	
 }
-
+.navbar {
+	visibility: hidden;
+	height: 0;
+}
 .container {
 	margin-left: auto;
 	margin-right: auto;
@@ -21,7 +25,7 @@ body {
 
 .upperpart {
 	height: 100%;
-	min-height: 1050px;
+	min-height: 1050px !important; 
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -30,15 +34,15 @@ body {
 	margin-bottom: 40px;
 }
 
-.menuDiv .navbar {
+.menuDiv .navbarMy {
 	list-style-type: none;
 }
 
-.menuDiv .navbar li {
+.menuDiv .navbarMy li {
 	float: right;
 }
 
-.menuDiv .navbar li a {
+.menuDiv .navbarMy li a {
 	display: block;
 	width: 153px;
 	height: 46px;
@@ -55,12 +59,12 @@ body {
 	margin-right: 5px;
 }
 
-.menuDiv .navbar li .active {
+.menuDiv .navbarMy li .active {
 	color: black;
 	background-color: #f4f4f4;
 }
 
-.menuDiv .navbar li a:hover {
+.menuDiv .navbarMy li a:hover {
 	color: black;
 	background-color: #f4f4f4;
 }
@@ -87,6 +91,7 @@ body {
 	color: white;
 	float: right;
 	padding-top: 100px;
+
 }
 
 .expertise {
@@ -94,6 +99,7 @@ body {
 	border-right: 1px solid #D3D3D3;
 	margin-right: 20px;
 	height: 316px;
+	
 }
 
 .navButts li { 
@@ -150,7 +156,7 @@ body {
 .middlePart {
 	background-color: white;	
 	height: 100%;
-	min-height: 1050px;
+	min-height: 1050px !important; 
 }
 
 .middlePart .menuDiv {
@@ -166,7 +172,7 @@ padding-bottom: 0px;
 
 .lowerPart {	
 	height: 100%;
-	min-height: 1050px;
+	min-height: 1050px !important; 
 }
 
 .description h2 {
@@ -188,8 +194,10 @@ padding-bottom: 0px;
 	border-right: 1px solid grey;
 }
 
-.contactForm {
+.contactInfo {
+	height: 322px ;
 	border-right: 1px solid grey;
+
 }
 .contactForm a {
 	float: right;
@@ -201,4 +209,439 @@ color: white;
 }
 .onwhite {
 	color: black;
+}
+.logoBigTablet {
+	visibility: hidden;
+	height: 0;
+}
+} /*descktop version ends*/
+
+@media only screen and (min-width: 768px) { /*tablet version starts*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #333;
+	color: #999;	
+}
+.navbar {
+	visibility: hidden;
+	height: 0;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	width: 750px;
+}
+
+.logoBig {
+	visibility: hidden;
+	height: 0;
+}
+
+.container-fluid {
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+}
+
+.upperpart {
+	height: 100%;
+	min-height: 850px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.menuDiv {
+	margin-bottom: 40px;
+}
+
+.menuDiv .navbarMy {
+	list-style-type: none;
+}
+
+.menuDiv .navbarMy li {
+	float: right;
+}
+
+.menuDiv .navbarMy li a {
+	display: block;
+	width: 120px;
+	height: 46px;
+	text-decoration: none;
+	color: #f4f4f4;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 46px;
+	background-color: #dd3420	;
+	text-transform: uppercase;
+	text-align: center;
+	border-top-right-radius: 15% ;
+	border-bottom-left-radius: 15%;
+	margin-right: 5px;
+}
+
+.menuDiv .navbarMy li .active {
+	color: black;
+	background-color: #f4f4f4;
+}
+
+.menuDiv .navbarMy li a:hover {
+	color: black;
+	background-color: #f4f4f4;
+}
+
+h3 {
+	color: white;
+	margin-top: 0px;
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+.whyChooseUs {	
+	border-right: 1px solid #D3D3D3;
+	margin-right: -10px;
+}
+
+.whyChooseUs a {
+	color: white;
+	float: right;
+}
+
+.expertise a {
+	color: white;
+	float: right;
+	padding-top: 100px;
+}
+
+.expertise {	
+	border-right: 1px solid #D3D3D3;
+	height: 316px;
+	margin-right: -10px;
+}
+
+.navButts li { 
+	list-style-type: none;
+}
+
+.navButts li a {
+	display: block;
+	text-decoration: none;
+	color: #f4f4f4;
+	background-color: #dd3420	;
+	float: left;
+	padding-bottom: 5px;
+	clear: left;
+	border-top-right-radius: 15% ;
+	border-bottom-left-radius: 15%;
+}
+
+.navButts li a:hover {
+	color: black;
+	background-color: #f4f4f4;
+}
+
+.socialLinks {
+	margin-top: 20px;
+}
+
+.socialLinks a {
+	float: right;
+	margin-left: 5px;
+	text-decoration: none;
+	color: #f4f4f4;
+	background-color: grey;
+	padding: 5px;
+	border-top-right-radius: 15% ;
+	border-bottom-left-radius: 15%;
+ 	font-size: 20px;
+ 	width: 100px;
+ 	text-align: center;
+}
+
+.socialLinks a:hover {
+	color: #dd3420;
+}
+
+.footer {
+	border-top: 1px solid grey;
+	margin-top: 50px;
+	text-align: right;
+	color: #f4f4f4;
+}
+
+.onwhite {
+	color: black;
+}
+
+.middlePart {
+	background-color: white;	
+	height: 100%;
+	min-height: 850px;
+	color: black;
+}
+.logoBigTablet {
+	visibility: visible;
+	height: 100%;
+}
+.middlePart .menuDiv {
+margin-bottom: 0px;
+padding-bottom: 0px;
+}
+
+.description h2 {
+	float: right;
+	color: black;
+}
+
+.description p {
+	float: right;
+	color: black;
+}
+
+.lowerPart {	
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	min-height: 850px;
+	
+}
+
+.form-control {
+	margin-bottom: 10px;
+}
+
+.aboutUs {
+	padding-left: 15px;
+	height: 322px ;
+	border-right: 1px solid grey;
+}
+
+
+.contactForm a {
+	float: right;
+	margin-left: 20px;
+	color: white;
+
+}
+.contactInfo a {
+color: white;
+}
+.contactInfo {
+padding-left: 15px;
+margin-bottom: 50px;
+}
+
+}/*tablet version ends*/
+@media only screen and (max-width: 768px) {/*mobile version starts*/
+	* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #333;
+	color: #999;	
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: auto;
+}
+
+.logoBig {
+	visibility: hidden;
+	height: 0;
+}
+
+.logoBigTablet {
+	visibility: hidden;
+	height: 0;
+}
+
+.logoSmall {
+	visibility: hidden;
+	height: 0;
+}
+
+.navbar-header {
+	height: 100px;
+}
+
+#myNavbar ul li a {
+	color: white;
+	background-color: black;
+}
+
+#myNavbar ul li a:hover {
+	background-color: white;
+	color: black;
+}
+
+#myNavbar ul li .activeItem {
+	background-color: black;
+	color: white;
+}
+
+.navbarMy {
+	visibility: hidden;
+	height: 0;
+}
+
+.socialLinks {
+	visibility: hidden;
+	height: 0;
+}
+
+.footer {
+	visibility: hidden;
+	height: 0;
+}
+
+h3 {
+	text-align: center;
+	color: white;
+	margin-top: 0px;
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+.whyChooseUs {	
+	padding-top: 120px;
+	border-bottom: 1px solid #dd3420;
+	}
+
+.whyChooseUs a {
+	color: white;
+	float: right;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+.expertise a {
+	color: white;
+	float: right;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+
+.expertise {	
+	padding-top: 15px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #dd3420;	
+}
+.ourServices {
+	
+	padding-bottom: 30px;
+}
+.navButts li { 
+	list-style-type: none;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+.navButts li a {	
+	display: block;
+	text-decoration: none;
+	color: #f4f4f4;
+	background-color: #dd3420	;
+	float: center;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	clear: left;
+	border-top-right-radius: 15% ;
+	border-bottom-left-radius: 15%;
+}
+
+.navButts li a:hover {
+	color: black;
+	background-color: #f4f4f4;
+}
+.mobilebackgroundfix {	
+	background-color: white;
+	color: black;
+	
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+
+}
+.middlePart {
+	height: auto;
+	min-height: 750px;
+}
+h2 {
+	padding-top: 300px;
+	color: black;
+	text-align: center;
+	margin-bottom: 100px;
+}
+.socialLinksMobile{
+	padding-top: 20px;
+}
+.socialLinksMobile a{
+	visibility: visible;
+	float: right;
+	margin-left: 10px;
+	text-decoration: none;
+	color: #f4f4f4;
+	background-color: grey;
+	padding: 5px;
+	border-top-right-radius: 15% ;
+	border-bottom-left-radius: 15%;
+ 	font-size: 20px;
+ 	width: 100px;
+ 	text-align: center;
+}
+
+.socialLinksMobile a:hover {
+	color: #dd3420;
+}
+.aboutUs {
+	padding-top: 120px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #dd3420;	
+}
+.contactInfo {
+	text-align: center;
+	padding-top: 15px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #dd3420;	
+}
+.contactInfo a{
+	color: white;
+}
+.form-control {
+	margin-bottom: 10px;
+}
+.contactForm a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	float: right;
+	margin-left: 40px;
+	margin-right: 20px;
+	color: white;
+}
+.contactForm {
+	padding-top: 15px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #dd3420;	
+}
+.footerMobile {
+	visibility: visible;
+	text-align: center;
+	color: #f4f4f4;
+}
+
 }
