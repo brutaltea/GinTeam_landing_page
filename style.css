@@ -1,0 +1,204 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #333;
+	color: #999;	
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	width: 864px;
+}
+
+.container-fluid {
+	background-color: white;
+}
+
+.upperpart {
+	height: 100%;
+	min-height: 1050px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.menuDiv {
+	margin-bottom: 40px;
+}
+
+.menuDiv .navbar {
+	list-style-type: none;
+}
+
+.menuDiv .navbar li {
+	float: right;
+}
+
+.menuDiv .navbar li a {
+	display: block;
+	width: 153px;
+	height: 46px;
+	text-decoration: none;
+	color: #f4f4f4;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 46px;
+	background-color: #dd3420	;
+	text-transform: uppercase;
+	text-align: center;
+	border-top-right-radius: 15% ;
+	border-bottom-left-radius: 15%;
+	margin-right: 5px;
+}
+
+.menuDiv .navbar li .active {
+	color: black;
+	background-color: #f4f4f4;
+}
+
+.menuDiv .navbar li a:hover {
+	color: black;
+	background-color: #f4f4f4;
+}
+
+ h3 {
+	color: white;
+	margin-top: 0px;
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+.whyChooseUs {	
+	width: 260px;
+	border-right: 1px solid #D3D3D3;
+	margin-right: 20px;
+}
+
+.whyChooseUs a {
+	color: white;
+	float: right;
+}
+
+.expertise a {
+	color: white;
+	float: right;
+	padding-top: 100px;
+}
+
+.expertise {
+	width: 260px;
+	border-right: 1px solid #D3D3D3;
+	margin-right: 20px;
+	height: 316px;
+}
+
+.navButts li { 
+	list-style-type: none;
+ }
+
+.navButts li a {
+	display: block;
+	text-decoration: none;
+	color: #f4f4f4;
+	background-color: 	#dd3420	;
+	margin-bottom: 5px;
+	float: left;
+	padding: 5px;
+	clear: left;
+	border-top-right-radius: 15% ;
+	border-bottom-left-radius: 15%;
+}
+
+.navButts li a:hover {
+	color: black;
+	background-color: #f4f4f4;
+}
+
+.socialLinks {
+	margin-top: 20px;
+}
+
+.socialLinks a {
+	float: right;
+	margin-left: 5px;
+	text-decoration: none;
+	color: #f4f4f4;
+	background-color: grey;
+	padding: 5px;
+	border-top-right-radius: 15% ;
+	border-bottom-left-radius: 15%;
+ 	font-size: 20px;
+ 	width: 100px;
+ 	text-align: center;
+}
+
+.socialLinks a:hover {
+	color: #dd3420;
+}
+
+.footer {
+	border-top: 1px solid grey;
+	margin-top: 50px;
+	text-align: right;
+	color: #f4f4f4;
+}
+
+.middlePart {
+	background-color: white;	
+	height: 100%;
+	min-height: 1050px;
+}
+
+.middlePart .menuDiv {
+margin-bottom: 0px;
+padding-bottom: 0px;
+}
+
+.logoBig {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 40px;
+}
+
+.lowerPart {	
+	height: 100%;
+	min-height: 1050px;
+}
+
+.description h2 {
+	float: right;
+	color: black;
+}
+
+.description p {
+	float: right;
+	color: black;
+}
+
+.form-control {
+	margin-bottom: 10px;
+}
+
+.aboutUs {
+	height: 322px ;
+	border-right: 1px solid grey;
+}
+
+.contactForm {
+	border-right: 1px solid grey;
+}
+.contactForm a {
+	float: right;
+	margin-left: 20px;
+	color: white;
+}
+.contactInfo a {
+color: white;
+}
+.onwhite {
+	color: black;
+}
